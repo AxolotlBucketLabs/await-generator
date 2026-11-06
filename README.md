@@ -6,10 +6,24 @@ Write code in async/await style in PHP using generators.
 [![License](https://img.shields.io/github/license/AxolotlBucketLabs/await-generator)](https://github.com/AxolotlBucketLabs/await-generator/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
 
+## Compatibility
+
+- The virion manifest requires PHP 8.1 or newer and the `ext-bcmath` extension.
+- The Composer package currently declares PHP `^8.0`. Virion consumers should follow the stricter manifest requirement.
+- The package keeps the `SOFe\AwaitGenerator` namespace and the Apache-2.0 attribution of the original project.
+
+## Installation
+
+For Composer consumers, install the package named `sof3/await-generator` and follow the package's existing API. For a DevTools virion build, use this checkout as the local source and declare `await-generator` in the consuming plugin's `devtools.yml`:
+
+```yaml
+virions:
+  - name: await-generator
+    version: ^3.6.1
+```
 
 ## Documentation
-Read the [await-generator tutorial][book] for an introduction
-from generators and traditional async callbacks to await-generator.
+Read the [await-generator tutorial][book] for an introduction to generators, traditional async callbacks and await-generator.
 
 ## Why await-generator?
 Traditional async programming requires callbacks,
@@ -170,9 +184,5 @@ This is simply achieved by adding an adapter to the generator,
 and does not even require explicit support from the await-generator runtime.
 This is currently not possible with fibers.
 
-[book]: https://sof3.github.io/await-generator/master/
-[ci-badge]: https://github.com/SOF3/await-generator/workflows/CI/badge.svg
-[ci-page]: https://github.com/SOF3/await-generator/actions?query=workflow%3ACI
-[codecov-badge]: https://img.shields.io/codecov/c/github/codecov/example-python.svg
-[codecov-page]: https://codecov.io/gh/SOF3/await-generator
+[book]: book/src/intro.md
 [trap-pr]: https://github.com/SOF3/await-generator/pull/106

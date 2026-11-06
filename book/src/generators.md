@@ -82,8 +82,8 @@ int(2)
 ```
 
 Furthermore, the function can eventually "return" a value.
-This return value is not handled the same way as a `yield`;
-it is obtained using `$generator->getReturn()`.
+This return value is not handled the same way as a `yield`.
+Obtain it with `$generator->getReturn()`.
 However, the return type hint must always be `Generator`
 no matter what you return, or if you don't return:
 
@@ -129,8 +129,8 @@ int(7)
 
 ## Hacking generators
 Sometimes we want to make a generator function that does not yield at all.
-In that case, you can write `0 && yield;` at the start of the function;
-this will make your function a generator function, but it will not yield anything.
+In that case, you can write `0 && yield;` at the start of the function.
+This makes your function a generator function without yielding anything.
 As of PHP 7.4.0, `0 && yield;` is a no-op,
 which means it will not affect your program performance
 even if you run this line many times.

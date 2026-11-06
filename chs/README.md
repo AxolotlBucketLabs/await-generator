@@ -1,7 +1,6 @@
 [Eng](../README.md) | [繁](../zho) | 简
 # await-generator
 [![Build Status][ci-badge]][ci-page]
-[![Codecov][codecov-badge]][codecov-page]
 
 给予 PHP 「async/await 等待式异步」（代码流控制）设计模式的程序库。
 
@@ -160,9 +159,7 @@ await-generator 提供了一个叫做「[捕捉][trap-pr]」的功能。
 这只需透过向生成器添加一个转接头来实现。甚至不需要 await-generator 引擎的额外支援。
 这目前在纤程中无法做到。
 
-[book]: https://sof3.github.io/await-generator/master/
-[ci-badge]: https://github.com/SOF3/await-generator/workflows/CI/badge.svg
-[ci-page]: https://github.com/SOF3/await-generator/actions?query=workflow%3ACI
-[codecov-badge]: https://img.shields.io/codecov/c/github/codecov/example-python.svg
-[codecov-page]: https://codecov.io/gh/SOF3/await-generator
+[book]: ../book/src/intro.md
+[ci-badge]: https://github.com/AxolotlBucketLabs/await-generator/actions/workflows/ci.yml/badge.svg
+[ci-page]: https://github.com/AxolotlBucketLabs/await-generator/actions/workflows/ci.yml
 [trap-pr]: https://github.com/SOF3/await-generator/pull/106
