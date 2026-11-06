@@ -2,8 +2,8 @@
 
 Write code in async/await style in PHP using generators.
 
-[![CI](https://github.com/NhanAZ-Libraries/await-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/NhanAZ-Libraries/await-generator/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/NhanAZ-Libraries/await-generator)](https://github.com/NhanAZ-Libraries/await-generator/blob/master/LICENSE)
+[![CI](https://github.com/AxolotlBucketLabs/await-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/AxolotlBucketLabs/await-generator/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/AxolotlBucketLabs/await-generator)](https://github.com/AxolotlBucketLabs/await-generator/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
 
 

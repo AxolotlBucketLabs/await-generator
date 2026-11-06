@@ -6,6 +6,9 @@
 	"license": "apache-2.0",
 	"authors": [
 		{
+			"name": "AxolotlBucketLabs"
+		},
+		{
 			"name": "SOFe",
 			"email": "sofe2038@gmail.com"
 		}
