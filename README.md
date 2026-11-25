@@ -3,7 +3,8 @@
 Write code in async/await style in PHP using generators.
 
 [![CI](https://github.com/AxolotlBucketLabs/await-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/AxolotlBucketLabs/await-generator/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/AxolotlBucketLabs/await-generator)](https://github.com/AxolotlBucketLabs/await-generator/blob/master/LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/AxolotlBucketLabs/await-generator?display_name=tag)](https://github.com/AxolotlBucketLabs/await-generator/releases/latest)
+[![License](https://img.shields.io/github/license/AxolotlBucketLabs/await-generator)](https://github.com/AxolotlBucketLabs/await-generator/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/1568295845374206052?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/Pk4FrNvHnM)
 
 ## Compatibility
@@ -19,7 +20,7 @@ For Composer consumers, install the package named `sof3/await-generator` and fol
 ```yaml
 virions:
   - name: await-generator
-    version: ^3.6.1
+    version: ^3.6.2
 ```
 
 ## Documentation

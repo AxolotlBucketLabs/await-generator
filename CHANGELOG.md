@@ -1,6 +1,11 @@
 Changelog
 ===
 
+## 3.6.2
+- Fixed cleanup of losing promises in `Await::safeRace()`.
+- Fixed channel queue ordering when pending operations are removed.
+- Updated generator type declarations and PHP compatibility.
+
 ## 3.6.1
 - Fixed syntax error
 
